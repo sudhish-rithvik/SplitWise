@@ -38,7 +38,7 @@ class AuthService {
         try {
             if (window.google) {
                 window.google.accounts.id.initialize({
-                    client_id: "YOUR_GOOGLE_CLIENT_ID_HERE.googleusercontent.com",
+                    client_id: "643091915490-3sgp1gbegjfrq59qanr1pjf3q0u3voen.apps.googleusercontent.com",
                     callback: this.handleGoogleResponse.bind(this)
                 });
             }
@@ -232,7 +232,7 @@ class PaymentService {
     constructor() {
         // SETUP REQUIRED: Add your Razorpay configuration
         this.razorpayConfig = {
-            key: "rzp_test_YOUR_KEY_HERE", // Replace with your Razorpay key
+            key: "rzp_test_R7EIsAJ0nvEwdI", // Replace with your Razorpay key
             currency: "INR",
             name: "SplitWise",
             description: "Group expense settlement",
